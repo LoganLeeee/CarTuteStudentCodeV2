@@ -97,8 +97,7 @@ static void drawWorld()
 	glPushMatrix();
 	car->drawWheel();								// drawing Front Wheels
 	glPopMatrix();
-
-	// draw Steering parts
+ 
 	glPushMatrix();
 	car->drawTransmission();				// drawing Back Transmission
 	glPopMatrix();
